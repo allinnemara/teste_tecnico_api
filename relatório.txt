@@ -1,0 +1,11 @@
+Relat�rio
+
+Tecnol�gias Utilizadas:
+- Boostrap 4.1.3
+- Font Awesome
+- Google Fonts
+- Jquery
+
+Execu��o:
+Estou habituada a receber telas atrav�s do zeplin, ent�o tive um pouco de dificuldade para supor tamanhos de fontes, espa�amentos e etc.
+Fora isso, o desenvolvimento foi bem tranquilo.

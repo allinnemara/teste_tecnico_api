@@ -1,0 +1,10 @@
+Cores
+
+Laranja: #ff6600
+Azul escuro: #1d2a38
+Azul claro: #425f7f
+
+Fonte usada: Noto Sans
+
+Icones
+https://fontawesome.com/

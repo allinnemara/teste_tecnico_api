@@ -1,0 +1,224 @@
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.bg-dark-blue{
+    background-color: #1d2a38;
+    color: white;
+}
+.bg-blue{
+    background-color: #425f7f;
+    color: white;
+}
+.bg-orange{
+    background-color: #ff6600;
+    color: white;
+}
+.orange{
+    color: #ff6600;
+}
+
+/* Menu */
+.menu{
+    text-transform: uppercase;
+}
+.menu .navbar-collapse{
+    flex-direction: row-reverse;
+}
+.navbar-toggler.btn{
+    border: 0;
+}
+.left{
+    height: 100px;
+    display: grid;    
+}
+.btn{
+    border-radius: unset;
+    background-color: white;
+    border: 0;
+}
+
+/* Carousel de Imagens */
+.carousel-vitrine{
+    padding-bottom: 20px;
+}
+
+/* Bloco Filtros */
+.box-filtros{
+    padding: 20px;
+    background-color: #f2efea;
+}
+.select{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 7.6px;
+    margin-right: 5px;
+    border: 0;
+    width: 100%;
+}
+.select-box{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.select-box .btn-busca{
+    background-color: #ff6600;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: unset;
+    width: 14%;    
+}
+
+/* Bloco Destaques */
+.destaques{
+    padding: 20px 0;
+}
+.destaques h1{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    margin: 3% 0 6% 0;
+}
+
+/* Destaques card */
+.destaques figure{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.destaques figure img{
+    border-radius: 0;
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+}
+.destaques .tag{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: block;    
+    width: 50px;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    margin-right: auto;
+}
+.destaques .wishlist{
+    float: right;
+}
+.destaques .fas,
+.destaques .far{
+    color: #ff6600;
+    width: 20px;
+    padding-right: 5%;
+}
+.destaques .list{
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    border: unset;
+}
+.destaques .list .list-item{
+    position: relative;
+    display: block;
+    padding: 3% 2%;
+    margin-bottom: -1px;
+    background-color: #fff;
+}
+.destaques .list .list-item span{
+    padding: 0 4%;
+}
+.destaques .card-destaque{
+    border: 1px solid rgba(0,0,0,.125);
+    padding-bottom: 1%;
+    border-radius: unset;
+    margin-bottom: 5%;
+}
+.destaques .card-top{
+    width: 100%;
+}
+
+/* Bloco Anuncie */
+.anuncie{
+    text-align: center;
+    padding: 6% 0;
+}
+.anuncie h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 20px;
+    white-space: nowrap;
+}
+.anuncie p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.anuncie button{
+    background-color: #ff6600;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: unset;
+    padding: 0.4% 4%;
+}
+.anuncie .icon-anuncie i{
+    font-size: 45px;
+    padding-bottom: 4%;
+}
+
+/* Banners */
+.banners{
+    margin: 4% 0;
+}
+
+/* Footer */
+footer{
+    padding: 5% 0 1% 0;
+}
+footer p{
+    font-size: 15px;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+footer h5{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 20px;
+}
+footer i{
+    font-size: 30px;
+}
+footer .copyright{
+    margin: 2% auto 0 auto;
+    text-align: center;
+    color: #425f7f;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+/* Footer Mobile */
+.footer-mob{
+    padding-top: 7%;
+}
+.footer-mob .list{
+    padding: 8% 0 0 0;
+}
+.footer-mob .list-item{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 2px 0;
+}
+.footer-mob .list-item i{
+    font-size: 20px;
+
+}
